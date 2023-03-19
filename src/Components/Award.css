@@ -1,0 +1,40 @@
+.Award_main{
+    background-image: url(https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover ;
+    height: 100%;
+}
+.Award_content{
+    width: 30vw;
+    height: 40vh;
+    padding-top: 30vh;
+    padding-bottom: 50vh;
+    padding-left: 10vw;
+    color: white;
+    animation: eff 5s ;
+    
+
+}
+.awd_t1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.awd_t2{
+    font-style: italic;
+    font-size: 20px;
+}
+.awd_t3{
+    font-style: italic;
+    font-size: 20px;
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+   
+  
+    
+}

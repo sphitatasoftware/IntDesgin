@@ -1,0 +1,76 @@
+.Test_main{
+    background-color: whitesmoke;
+    margin-top: -110px;
+    padding: 20px;
+}
+.feedback{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(145, 145, 238) ;
+}
+.fed{
+    background-color:white;
+    margin: 20px;
+    flex: 100%;
+    padding:10px;
+    animation: eff 2s ;
+}
+#bg-text2
+{
+    color:lightgrey;
+    font-size:120px;
+    font-weight: 700;
+    text-align: center;
+  
+}
+@media (max-width: 800px) {
+    .feedback{
+      flex-direction: column;
+    
+}
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+   
+  
+    
+  }
+  .Test_content{
+    margin-top: -30vh;
+    width: 30vw;
+    height: 30vh;
+   margin-left: 10vw;
+  }
+  .t_t1{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .t_t2{
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .t_t3{
+    font-size: 20px;
+    color: rgb(145, 145, 238);
+    font-weight: 500;
+    font-style: italic;
+
+
+  }
+  .t_m{
+    color: gray;
+    font-style: italic;
+  }
+.t_name{
+    color: black;
+    font-size: 30px;
+  }

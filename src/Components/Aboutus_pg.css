@@ -1,0 +1,202 @@
+.Aboutuspg_intro{
+    background-image: url("https://images.pexels.com/photos/2123337/pexels-photo-2123337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+height: 100vh;
+text-align: center;
+color: white;
+margin-top: -15px;
+
+}
+.tx{
+    animation: eff 2s ;
+
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+   
+  
+    
+}
+.apg_t1{
+    padding-top: 30vh;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.apg_t2{
+    font-size: 4vw;
+    font-weight: 700;
+   
+}
+.apg_t3{
+    font-size:2vw ;
+    font-weight: 500;
+}
+.Aboutuspg_info{
+    background-color: whitesmoke;
+    margin-top: -20vh;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+}
+.txt{
+    background-color:transparent;
+    margin: 20px;
+    flex: 100%;
+    padding:30px 30px 0px 0px;
+    animation: eff 2s ;
+    margin-top: -25vh;
+}
+
+
+#bg-text
+{
+    color:lightgrey;
+    font-size:7vw;
+    font-weight: 700;
+    text-align: left;
+
+    
+    
+  
+}
+@media (max-width: 800px) {
+    .box3 {
+      flex-direction: column;
+    }
+    .box4 {
+        flex-direction: column;
+      }
+    
+}
+.txt img{
+    height: 80vh;
+    width: 60vh;
+    padding: 40px;
+    box-shadow:  0 0 20px 10px gainsboro;
+}
+.txt_t1{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+}
+.txt_t2{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.txt_t3{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.txt_t4{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(145, 145, 238) ;
+}
+.ab_1{
+   
+    background-color:transparent;
+  margin: 20px;
+  flex: 100%;
+  padding:30px 30px 0px 0px;
+  animation: eff 2s ;
+  /* box-shadow:  0 0 10px 10px gainsboro; */
+}
+.ab_1:hover{
+    box-shadow:  0 0 10px 10px gainsboro; 
+    zoom: 1.2;
+
+}
+.Aboutuspg_count{
+    padding-top:20vh ;
+    padding-bottom: 10vh;
+    background-color: whitesmoke;
+}
+.abc_t1{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.abc_t2{
+    color: grey;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+@media (max-width: 800px) {
+    
+    .box4 {
+        flex-direction: column;
+      }
+    
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(145, 145, 238) ;
+}
+.at_1{
+   
+    background-color:transparent;
+  margin: 20px;
+  flex: 100%;
+  padding:30px 30px 0px 0px;
+  animation: eff 2s ;
+  /* box-shadow:  0 0 10px 10px gainsboro; */
+}
+.at_1 img{
+    width: 25vw;
+}
+.at_t1{
+    color: black;
+    font-style: italic;
+}
+@media (max-width: 800px) {
+    
+    .box5 {
+        flex-direction: column;
+      }
+    
+}
+.Aboutuspg_team{
+    background-color: whitesmoke;
+    padding: 70px;
+}
+.team_h{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.team_d{
+    color: grey;
+    font-size: 20px;
+
+}
+.team{
+    margin-top: -18vh;
+}
+.at_t2{
+    font-weight: 600;
+    font-size: 20px;
+    color: grey;
+}

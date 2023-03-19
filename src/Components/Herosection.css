@@ -1,0 +1,54 @@
+.hero_bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+height: 100vh;
+background-blend-mode: darken;
+}
+.hero_t1{
+    color:white;
+    font-size:20px;
+    margin-bottom: -60px;
+    margin-top: 200px;
+}
+.hero_t2{
+    color:white;
+    font-size:70px;
+    font-weight: 700;
+    width: 40vw;
+}
+.hero_t3{
+    color:whitesmoke;
+    font-size:20px;
+    width: 40vw;
+    margin-top: -70px;
+}
+.hero_btn{
+    color: white;
+    background-color:transparent ;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style:inset;
+    padding: 10px;
+margin-left: 20px;
+}
+.hero_content{
+    margin-left: 15vw;
+    animation: eff 2s ;
+    
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+}
+.hero_img img{
+    width: 35vw;
+    margin-left: 58vw;
+    margin-top: -120vh;
+    animation: eff 5s ;
+    
+}

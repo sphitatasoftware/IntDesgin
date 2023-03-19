@@ -1,0 +1,109 @@
+.Portfoliopg_intro{
+    background-image: url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+height: 100vh;
+color: black;
+text-align: center;
+}
+.px{
+    padding-top: 30vh;
+    animation: eff 2s ;
+    
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+   
+  
+    
+}
+.po_t1{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.po_t2{
+    font-weight: 700;
+    font-size: 5vw;
+    
+}.po_t3{
+    font-size: 2vw;
+    font-weight: 700;
+    
+}
+#bg-text
+{
+    color:lightgrey;
+    font-size:7vw;
+    font-weight: 700;
+    text-align: left;
+
+    
+    
+  
+}
+.box6{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    color: black ;
+    margin-top: -20vh;
+}
+.po_1{
+   
+    background-color:transparent;
+ 
+  flex: 100%;
+  padding:30px 30px 0px 0px;
+  animation: eff 2s ;
+  /* box-shadow:  0 0 10px 10px gainsboro; */
+}
+.po_1 img{
+    width: 30vw;
+    
+}
+
+@media (max-width: 800px) {
+    
+    .box6 {
+        flex-direction: column;
+      }
+    
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(145, 145, 238) ;
+}
+.po_2{
+   
+    background-color:transparent;
+ 
+  flex: 100%;
+  padding:30px 30px 0px 0px;
+  animation: eff 2s ;
+  /* box-shadow:  0 0 10px 10px gainsboro; */
+}
+.po_2 img{
+    width: 30vw;
+    
+}
+
+@media (max-width: 800px) {
+    
+    .box7 {
+        flex-direction: column;
+      }
+    
+}
+.po_h{
+    font-size: 30px;
+    font-weight: 800;
+}

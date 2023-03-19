@@ -1,0 +1,49 @@
+.comp{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(145, 145, 238) ;
+   
+}
+.c{
+    background-color:transparent;
+    margin: 20px;
+    flex: 100%;
+    padding:10px;
+    
+ 
+    
+}
+.c img{
+    width: 10vw;
+    height: 30vh;
+}
+@media (max-width: 800px) {
+    .comp{
+      flex-direction: column;
+    
+}
+}
+@keyframes eff {
+    from {
+        margin-left: -100%;
+        transform:rotate(-90deg);
+      }
+      to {
+        left:15vw
+      }
+   
+  
+    
+  }
+  .Rank_content{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .Rank_main{
+    background-color: whitesmoke;
+    margin-top: -40px;
+    animation: eff 2s ;
+  }
