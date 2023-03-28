@@ -5,6 +5,7 @@ import Award from './Award';
 import Service from './Service';
 import Test from './Test';
 import Rank from './Rank';
+import Contact_pg from './Contact_pg';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Service/>
       <Test/>
       <Rank/>
+      <Contact_pg/>
       
 
 

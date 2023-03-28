@@ -24,22 +24,29 @@ const Contact_pg = () => {
                 
                 </div>
                 <div className='c1'>
-                    <form>
+                    <form action="https://formspree.io/f/xvonwood"
+            method="POST">
                     <p className='cp_t1'>Contact'us about your Space..</p>
-                        <input  placeholder='Name'></input><br/>
-                        <input  placeholder='Email '></input><br/>
-                        <input placeholder='Contact no'></input><br/>
-                        <input placeholder='Subject'></input><br/>
-                        <input  placeholder='Message'></input><br/>
+                        <input  placeholder='Name' name="username" required autoComplete="off"></input><br/>
+                        <input  placeholder='Email ' name="Email" required autoComplete="off"></input><br/>
+                        <input  type='mobile' placeholder='Contact no' name="Contact no" required autoComplete="off"></input><br/>
+                        <input placeholder='Subject' name="Subject" required autoComplete="off"></input><br/>
+                        <input type='textarea' placeholder=' Enter your Message'name="Message" required autoComplete="off"></input><br/>
                         <button>Send Message</button>
                     </form>
                 
                 </div>
 
         </div>
-        {/* <div>
-            <iframe src='https://www.google.co.in/maps/place/Gajapati+Palace/@18.7789147,84.0853164,14z/data=!4m5!3m4!1s0x3a3cf7646724a099:0x54c8cdbe49d68ac4!8m2!3d18.778634!4d84.0869229?hl=en&authuser=0'></iframe>
-        </div> */}
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.916088549329!2d77.72263971426376!3d12.977218618267498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11b18c1e15cb%3A0x8e3d45c91c3a107d!2sCHRIS%20HOTELS!5e0!3m2!1sen!2sin!4v1680023292716!5m2!1sen!2sin"
+        width="100%"
+        height="400"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"></iframe>
+
 
     </div>
   )
