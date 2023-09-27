@@ -10,7 +10,7 @@ const Herosection = () => {
         <div className='hero_content'>
             <br/>
             <p className='hero_t1'>We have the Magicians with us....</p>
-            <p className=' hero_t2'>Sidx Desgin Solutions<GiTrophyCup/></p>
+            <p className=' hero_t2'>Edge Interiors<GiTrophyCup/></p>
             <p className='hero_t3'>Real comfort, visual and physical, is vital to every room</p>
             <Link  to="portfolio"><button className='hero_btn'>See Our Projects</button></Link>
 

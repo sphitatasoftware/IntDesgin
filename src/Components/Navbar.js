@@ -22,7 +22,7 @@ function Navbar() {
     <nav className="nav">
    
       
-      <h1 className="logodesgin"> Sidx Desgin Solutions<GiTrophyCup/></h1>
+      <h1 className="logodesgin"> Edge Interiors<GiTrophyCup/></h1>
       
       <ul className={active}>
         <li className="nav__item">

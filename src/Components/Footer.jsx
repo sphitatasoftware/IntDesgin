@@ -12,7 +12,7 @@ const Footer = () => {
         <p>@Copyright 2022</p>
         </div>
         <div className='Footer_content'>
-            <h1> Our  Company</h1>
+            <h1>Edge Interiors</h1>
             <ul>
                 <li>Home</li>
                 <li>Portfolio</li>
